@@ -23,10 +23,31 @@ public class Datatype {
 
         //you can add variables together
         double addition = price + gdp;
+        //can use parentheses to seperate operators
+        double multipleOperators = price + (gdp - price);
+
+        //modulo % (shows the remainder when dividing num1 by num2 )
+        int cookiesBaked = 10;
+        int cookiesLeftover = cookiesBaked % 3; //cookiesLeftover will be 1
+        //can be used to find if the number is odd or even!
+        7 % 2
+        // 1, odd!
+        8 % 2
+        // 0, even!
+        9 % 2
+        // 1, odd!
 
         //String hold sequences of characters in "double" quotes
         String name = "Leah Brenny";
 
+        // Greater than and Less than
+            //used in boolean comparisons to return true or false
+            double creditsEarned = 176.5;
+            double creditsOfSeminar = 8;
+            double creditsToGraduate = 180;
+            boolean canGraduate = creditsEarned > creditsToGraduate;
+
+        System.out.println(canGraduate);
         System.out.println(name);
     }
 }
