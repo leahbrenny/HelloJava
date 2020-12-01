@@ -21,6 +21,9 @@ public class Datatype {
         char firstLetter = 'L';
         char punctuation = '!';
 
+        //you can add variables together
+        double addition = price + gdp;
+
         //String hold sequences of characters in "double" quotes
         String name = "Leah Brenny";
 
